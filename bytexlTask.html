@@ -1,0 +1,401 @@
+<html>
+
+<head>
+<title>
+ByteXL buddy program webpage
+</title>
+
+<style>
+body{
+
+height:100%;
+width:100%;
+background:black;
+justify-content:center;
+align-items:center;
+
+flex-direction:column;
+
+
+}
+
+.container_1{
+background:black;
+height:80px;
+width:100%;
+
+justify-content:center;
+align-items:center;
+display:flex;
+flex-direction:row;
+justify-content:space-between;
+
+
+
+}
+
+.container_2{
+background:green;
+height:650px;
+width:100%;
+background-image: url('https://previews.dropbox.com/p/thumb/ACc7JoD4t0EWXMvS8l4y-PKG1aMkDlWew8Q_S7-aQrgrB6QD6kCuxdnEXHzIDqXi4IdK9lAAjPkW-6jfyBQSTp-CmdcZIQpeo-yVwyxQp79t46MIdrqoui_d3RDWJpg0gPiRD8Wwjndh1s1bKdMR-lYwlkxuHjR2MNcoxQYKFItlBl_mVXweNHi-CMWDCEkfQPcRapJKA-n-mzlQb9gkTu2FKbb66dAdqctWNcDaDR_OE3eFcNYpHzAoyxH8ARnv6EYLDoZYnGxtec8p-qFaAnRQcK0kfrhww8aHuLlScVXPKbhJyjd_5J-p714umtsT-g6-R49vJ7rtL94uMlJ_rEWO/p.jpeg?is_prewarmed=true');
+
+background-size: cover; 
+background-position: center; 
+background-repeat: no-repeat; 
+
+
+justify-content:center;
+align-items:center;
+display:flex;
+flex-direction:column;
+justify-content:space-around;
+
+}
+
+.container_3{
+background:blue;
+height:700px;
+width:100%;
+background-image: url('https://previews.dropbox.com/p/thumb/ACf-Z31PgboCeNERi1XLqUbfonBPtRmDrz1xBFMfffn2rmZAce_tZSMzKJ5COvzM0nsCBqfbhPxWM3X0Yn4AQrcDXqeSTRuTJGTe8yahpf5Dcjyvjns0cYCsHJeSaRgZXZjDVx03tw70lmsQndkrIZKNpFE3BMXP0nJy1PeT8zKsW-b5LD-thrXjBOHE5YtzHUfQ02BXvf9klGbJjuskKdfws9UBV1zYhWJCF1VKqegfAYIHhqDLuWAGImyZGlh7pHDQCkP3DerGa49dJfiEXJvK8DcLRTw_hzZU-6Pr1KmSWwPVRuyvlRYK-C8bBZOcEmdjPRKEaU_LyLlG-w89weft/p.jpeg?is_prewarmed=true');
+
+background-size: cover; 
+background-position: center; 
+background-repeat: no-repeat; 
+display:flex;
+align-items:center;
+justify-content:center;
+flex-direction:column;
+justify-content:space-around;
+
+}
+
+.nav{
+color:white;
+font-family:Sans-Serif;
+font-size:20px;
+}
+
+.nav_1{
+
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:row;
+gap:20px;
+margin-right:10px;
+
+
+}
+
+ h1 {
+ font-family: 'Bebas Neue', sans-serif;
+ font-size: 48px;
+ font-weight: bold;
+ color: white; 
+ margin-bottom: 10px;
+ font-weight:100; 
+ }
+
+ .s{
+  font-family: 'Roboto', sans-serif;
+ font-size: 35px;
+  color: white; 
+ margin-top: 0;
+ margin-left:150px;
+
+ 
+        }
+
+ .button {
+ font-family: 'Bebas Neue', sans-serif;
+ background: linear-gradient(to right, #FF00BF, #FF4080, red);
+ color: white;
+ border: none;
+ height:100px;
+ width:400px;
+ font-size: 18px;
+ font-weight: bold;
+ cursor: pointer;
+ border-radius: 50px;
+ justify-content:center;
+ align-items:center;
+ display:flex;
+ 
+        }	
+	
+.box_1{
+
+height:45%;
+width:80%;
+background:white;
+border-radius:20px;
+justify-content:center;
+align-items:center;
+display:flex;
+flex-direction:row;
+justify-content:space-around;
+}	
+
+.box_2{
+
+height:40%;
+width:80%;
+<!--background-color: rgba(255, 255, 255, 0.5);-->
+border-radius:5px;
+justify-content:center;
+align-items:center;
+display:flex;
+flex-direction:row;
+justify-content:space-between;
+
+}	
+
+.c{
+height:100%;
+width:22%;
+background:white;
+justify-content:center;
+align-items:center;
+display:flex;
+flex-direction:column;
+justify-content:space-around;
+
+}
+
+label{
+ font-family: 'Roboto', sans-serif;
+ 
+}
+
+select{
+background:#FAF9F6;
+border:0px;
+outline:none;
+color:gray;
+height:60px;
+width:200px;
+margin-top:10px;
+
+border-radius:4px;
+
+}
+
+button{
+height:50px;
+width:200px;
+background:blue;
+border-radius;
+color:white;
+font-family:'Roboto', sans-serif;
+outline:none;
+border:0px;
+border-radius:5px;
+}
+
+.subbox_1{
+
+height:100%;
+width:33%;
+border-radius:40px;
+background:rgba(255, 255, 255, 0.9);
+justify-content:center;
+align-items:center;
+display:flex;
+flex-direction:column;
+
+}
+
+img{
+
+height:150px;
+width:150px;
+
+}
+		
+</style>
+
+
+
+</head>
+
+<body>
+
+<div class="container_1">
+
+<p class="nav" style="margin-left:10px">CARZONE</p>
+
+<div class="nav_1">
+
+<p class="nav" >HOME</p>
+<p class="nav" >SERVICE </p>
+<p class="nav" >FEATURED CARS</p>
+<p class="nav" >NEW CARS</p>
+<p class="nav" >CONTACT</p>
+
+</div>
+
+
+</div>
+
+<div class="container_2">
+
+<div>
+<div>
+<h1>GET YOUR <span style="color:#F1C27D;font-weight:700">DREAM CAR</span> AT A <span style="color:#FF00BF;font-weight:700">DREAM PRICE</span></h1>
+<p class="s">The largest inventory of cars in Northern India</p>
+
+</div>
+
+
+</div>
+
+<div class="button">
+
+<h1 style="margin-bottom:30px">CONTACT US</h1>
+
+</div>
+
+
+</div>
+
+<div class="container_3">
+
+<div class="box_1">
+
+<div class="c">
+
+<div>
+<div><label>Select year</label></div>
+<select>
+<option>Year</option>
+</select>
+</div>
+
+<div>
+<div><label>Body style</label></div>
+<select>
+<option>Style</option>
+</select>
+</div>
+
+
+</div>
+
+<div class="c">
+
+<div>
+<div><label>Select Make</label></div>
+<select>
+<option>Make</option>
+</select>
+</div>
+
+<div>
+<div><label>Car Condition</label></div>
+<select>
+<option>Condition</option>
+</select>
+</div>
+
+
+</div>
+
+<div class="c">
+<div>
+<div><label>Select Model</label></div>
+<select>
+<option>Model</option>
+</select>
+</div>
+
+<div>
+<div><label>Select Price</label></div>
+<select>
+<option>Price</option>
+</select>
+</div>
+</div>
+
+<div class="c">
+
+<button class="Search">Search</button>
+
+</div>
+
+</div>
+
+<div class="box_2">
+
+<div class="subbox_1">
+
+<div>
+<img src="https://previews.dropbox.com/p/thumb/ACf6RJETxY_ndoEiwT7CC6I7lZdQdVemWbOVKgYW1NPX-PX_rGHxHifrA21wEGaOTRNPEaLmfBurCEptILe-gS_hDBLh6TS9YWO1s73LwHPDMqotHCWpTDalMuf4n7nOKrj5WLZ3eyRejCJqiuyic0_Byh6YdEvU_Gxuw2AbDNFxWyIPqWqjtkNX6hqmCjg7BcyYdGxXi2GICT3NL6kgUzPrM3KG5sg83Pl7e0rqzwHvosAow2-hwOHZue5OhL2vk2U1jMKrwvSxEVBjUTWh2c6VqoyvEBGF14XOxFrjyHf2BbAQ3SMZkiztslg1ClgCDr_IdwB-7-I27N5TWR7kYvdZ/p.png?is_prewarmed=true" alt="Car Image" />
+
+
+</div>
+
+
+<h3 style="font-family:'Roboto', sans-serif;">Largest Dealership</h3>
+<p  style="font-family:'Roboto', sans-serif;margin-left:10px">Nemo enim ipsam voluptatem
+quia voluptas sit aspernatur
+aut odit aut den fugit sed quia.</p>
+
+
+
+</div>
+
+<div class="subbox_1">
+
+<div>
+<img src="https://previews.dropbox.com/p/thumb/ACf7rzBykkuZHoqMcXROcMEmck2Wn43vxO-iRYoRy_3h8do6rHfqRzBGnGh4_g14NgQl5ZLY_8uxI7f9y92ZMA-MZa1JaiLIrbbHZxVtDjPIMDn5D5gYGFYJDYAP1WdVakkkebV4zSkNNJ1DCTghEUSiA4KiHKWB4v8yG3JDbMl4hJAe97x4FQi9pe3A8rMh2XTGQY3dIvUvn2sXbYdtKcyF9FLaBKkbfJ2EQ7LOLfeS0dqorL5zoKibjd2a4133sFo4ZAzLJoMpNHKSAaABqWcqcyiZFGTIFJhYVPMdHkiJM-Ah3drTsnUaCehnR2b_bmBWAaWyuN0ltNGelWdWGAC7/p.png?is_prewarmed=true" alt="Warranty Image" />
+
+</div>
+
+
+<h3 style="font-family:'Roboto', sans-serif;">Unlimited Warranty</h3>
+<p  style="font-family:'Roboto', sans-serif;margin-left:10px">Nemo enim ipsam voluptatem
+quia voluptas sit aspernatur
+aut odit aut den fugit sed quia.</p>
+
+
+</div>
+
+<div class="subbox_1">
+
+<div>
+<img src="https://previews.dropbox.com/p/thumb/ACcCIQiiTJJMy2W3Wvn9qsfK53Fj_1BMzvPy0GQsS7wPwnn9j4TZBARdk7Yuw66r2iwYIC_nMKs5y2GOdW6JD0lyAWNnrbjsWnYY6qVIX_gpS7rnG1ojShds8vX1rKM3xJfNDMatsNBt36KrmZiE_WGCxs25gWGySop6PB3oNkIPb0C8vm8fTXJkGBvZz-dnc-8k1Y-GW4VnT6uuD9POjIrQ5CTkjm6qKk2Fb8EaWMtCJZayaCyanYNVCNOJJlBC1OLtxlR7xDOpAAVEMDbA2gyE2RXJBlTMFh2fMVffu4IbhB7YRRqsMMst4APl1HnOvSMO4Vdm_jOIsYPekAPMUrst/p.png?is_prewarmed=true" alt="Car Image" />
+
+</div>
+
+
+<h3 style="font-family:'Roboto', sans-serif;">Insurance Support</h3>
+<p  style="font-family:'Roboto', sans-serif;margin-left:10px">Nemo enim ipsam voluptatem
+quia voluptas sit aspernatur
+aut odit aut den fugit sed quia.</p>
+
+</div>
+
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+</body>
+
+
+
+
+
+</html>
+
+
+
+<!--https://banyanboard.com/mock-car-dealership-page/media/a396a3bde15e9fb31f4b07ebaabeaaa7.jpg-->
+<!--https://banyanboard.com/mock-car-dealership-page/media/d2c3df1a61cdd612288c2e82912281b1.jpg-->
